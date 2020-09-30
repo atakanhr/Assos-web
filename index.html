@@ -21,14 +21,14 @@
       </nav>
       <div id="app">
       <!-- Navbar -->
-      <div class="navbar navbar-light bg-dark border-bottom-warning">
+        <h4 class="text-center" id="index-title"  v-if="lang ==='tr'">Assos Antik Kenti Bilgi Panoları</h4>
+        <h4 class="text-center" id="index-title" v-if="lang ==='en'">Assos Ancient City Information Boards</h4>
+      <div class="navbar justify-content-center border-bottom">
         <div v-on:click="changeLangTr">
         <a class="navbar-brand" href="#" >
         <img src="https://cdn.webshopapp.com/shops/94414/files/54949672/turkey-flag-icon-free-download.jpg" width="50" height="30" alt="" >
         </a>
       </div>
-        <h2 class="text-center" id="index-title"  v-if="lang ==='tr'">Ana Sayfa</h2>
-        <h3 class="text-center" id="index-title" v-if="lang ==='en'">Home Page</h3>
         <div v-on:click="changeLangEn">
         <a class="navbar-brand float-right" href="#">
           <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Great_Britain_%28English_version%29.png" width="50" height="30" alt="">
