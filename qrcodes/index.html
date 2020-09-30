@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>QR</title>
+</head>
+
+<body>
+    <div id="app">
+        <ul class="list-group">
+            <li class="list-group-item active text-center">Domain bilgileri</li>
+            <li class="list-group-item"><b>URL:</b> {{config.url}}</li>
+            <li class="list-group-item"><b>Domain:</b> {{config.hostname}}</li>
+            <li class="list-group-item"><b>Protocol:</b> {{config.protocol}}</li>
+            <li class="list-group-item"><b>Yazı sayısı</b> {{config.len}}</li>
+        </ul>
+    <div>
+        <br>
+        <h4 class="text-center">Qr oluştur</h4>
+        <i>Default 100x100</i>
+        <br>
+        <i>Oluşturulacak :  {{qr_boy}} X {{qr_boy}}</i>
+        <br>
+        <i>1 ila 1000 arası değerler verin</i>
+        <div class="input-group input-group-sm mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-sm">QR Boyut</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm"
+                v-model="qr_boy">
+        </div>
+        
+        <div class="d-flex justify-content-center align-items-center" v-if=""><button type="button"
+                class="btn btn-primary" v-on:click="produce_qr">QR Kodları oluştur</button></div>
+    
+        <div v-for="item in conc" :key="item.tr" class="d-flex flex-column align-items-center justify-content-center mb-1 mt-1 border-bottom border-top">
+            <img :src="item.img">
+            <div>{{item.tr}}<div>
+            <div>{{item.en}}<div>
+    </div>
+    </div>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS then ve and default script -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
