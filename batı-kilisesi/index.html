@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Assos</title>
+</head>
+
+<body>
+  <div id="app">
+    <div class="container">
+      <!-- logolar navbar -->
+      <nav class="navbar mt-1 mb-1 border-top border-bottom">
+        <img src="../logo/indir (1).png" width="30" height="30" alt="nara logo">
+        <img src="../logo/indir.png" width="30" height="30" alt="kultur bakanlıgı logo">
+        <img src="../logo/comu.png" width="30" height="30" alt="comulogo">
+        <img src="../logo/assoskazısı.png" width="30" height="30" alt="assos kazısı logo">
+        <img src="../logo/icdas-celik-logo.jpg" width="60" height="30" alt="icdas logo">
+      </nav>
+      <!-- Başlık ve dil -->
+      <div class="row d-flex justify-content-between mb-1 border-bottom text-center">
+        <div class="col-2 ml float-left" v-on:click='changeLangTr'>
+          <img src="https://cdn.webshopapp.com/shops/94414/files/54949672/turkey-flag-icon-free-download.jpg" width="50"
+            height="40" alt="turkce">
+        </div>
+        <div class="col-5">
+          <h3 v-if = 'lang === "tr" '> {{contenttr.title}} </h3>
+          <h3 v-if = 'lang === "en" '> West Church </h3>
+        </div>
+        <div class="col-2 " v-on:click='changeLangEn'>
+          <img class="float-right"
+            src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Great_Britain_%28English_version%29.png"
+            width="50" height="40" alt="ingilizce">
+        </div>
+      </div>
+      <!-- Font -->
+      <div class="row justify-content-between mb-1 border-bottom text-center">
+        <div class="col-3" v-on:click='smallerFont'>
+          <i class="fa fa-font" aria-hidden="true"></i>-
+        </div>
+        <span v-if="lang === 'tr'">Yazı Büyüklüğü</span>
+        <span v-if="lang === 'en'">Font Size </span>
+
+        <div class="col-3" v-on:click='biggerFont'>
+
+          +<i class="fa fa-font" aria-hidden="true"></i>
+        </div>
+      </div>
+      <!-- İçerik -->
+      <div class="paragraf">
+
+        <p class="text-justify" id="paragraf" v-if="lang === 'tr'">{{contenttr.paragraph1}}</p>
+        <p class="text-justify" id="paragraf" v-if="lang === 'en'">{{contenten.paragraph1}}</p>
+
+
+
+
+
+        <div class="paragraf">
+          <p class="text-justify font-italic " id="paragraf" v-if="lang === 'tr'"> {{contenttr.paragraph2}} </p>
+          <p class="text-justify font-italic " id="paragraf" v-if="lang === 'en'"> {{contenten.paragraph2}} </p>
+        </div>
+        <div class="justify-content-center text-center font-weight-bolder"> <img :src="links.foto3.link"
+            class="img-fluid max-width: 90%"> <span v-if="lang === 'tr'">{{links.foto3.aciklamatr}}</span> <span
+            v-if="lang === 'en'">{{links.foto3.aciklamaen}}</span> </div>
+        <br>
+        <div class="justify-content-center text-center font-weight-bolder"> <img :src="links.foto2.link"
+            class="img-fluid max-width: 90%"> <span v-if="lang === 'tr'">{{links.foto2.aciklamatr}}</span> <span
+            v-if="lang === 'en'">{{links.foto2.aciklamaen}}</span> </div>
+        </br>
+        <div class="justify-content-center text-center font-weight-bolder"> <img :src="links.foto1.link"
+            class="img-fluid max-width: 90%"> <span v-if="lang === 'tr'">{{links.foto1.aciklamatr}}</span> <span
+            v-if="lang === 'en'">{{links.foto1.aciklamaen}}</span> </div>
+        </br>
+      
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+      </script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+      <script src="index.js"></script>
+</body>
+
+</html>

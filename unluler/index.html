@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Assos</title>
+</head>
+
+<body>
+  <div id="app">
+    <div class="container">
+      <!-- logolar navbar -->
+      <nav class="navbar mt-1 mb-1 border-top border-bottom">
+        <img src="../logo/indir (1).png" width="30" height="30" alt="nara logo">
+        <img src="../logo/indir.png" width="30" height="30" alt="kultur bakanlıgı logo">
+        <img src="../logo/comu.png" width="30" height="30" alt="comulogo">
+        <img src="../logo/assoskazısı.png" width="30" height="30" alt="assos kazısı logo">
+        <img src="../logo/icdas-celik-logo.jpg" width="60" height="30" alt="icdas logo">
+      </nav>
+      <!-- Başlık ve dil -->
+      <div class="row d-flex justify-content-between mb-1 border-bottom text-center">
+        <div class="col-2 ml float-left" v-on:click='changeLangTr'>
+          <img src="https://cdn.webshopapp.com/shops/94414/files/54949672/turkey-flag-icon-free-download.jpg" width="50"
+            height="40" alt="turkce">
+        </div>
+        <div class="col-5">
+          <h2 v-if='lang === "tr" '> Assos’un Ünlü Kişileri </h2>
+          <h2 v-if='lang === "en" '> Famous People of</h2>
+        </div>
+        <div class="col-2 " v-on:click='changeLangEn'>
+          <img class="float-right"
+            src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Great_Britain_%28English_version%29.png"
+            width="50" height="40" alt="ingilizce">
+        </div>
+      </div>
+      <!-- Font -->
+      <div class="row justify-content-between mb-1 border-bottom text-center">
+        <div class="col-3" v-on:click='smallerFont'>
+          <i class="fa fa-font" aria-hidden="true"></i>-
+        </div>
+        <span v-if="lang === 'tr'">Yazı Büyüklüğü</span>
+        <span v-if="lang === 'en'">Font Size </span>
+
+        <div class="col-3" v-on:click='biggerFont'>
+
+          +<i class="fa fa-font" aria-hidden="true"></i>
+        </div>
+      </div>
+      <!-- İçerik -->
+      <div class="paragraf">
+        <div v-if="lang === 'tr'">
+          <p class="text-justify" id="paragraf">
+            <div class="text-center font-weight-bold">HERMİAS (ölümü M.Ö. 341)</div> <br>
+
+            Assos ile ve Atarneus (Dikili) arasındaki bölgenin tiranı olan Eubulos’un kölesi olan Hermias antik
+            kaynaklarda barbar, hadım, para değişimi yapan köle ve tiran olarak tarif edilmiştir. Eubulos tahminen M.Ö.
+            360 yılında Hermias’ı Atina’daki Platon'un akademisine göndermiştir. Hermias akademide Aristoteles ile yakın
+            dostluk kurmuştur. M.Ö. 350 yılında Aterneus’a geri dönen Hermias, Eubulos’un ölümünden sonra onun ardılı
+            olarak idareyi devralmıştır. Platon, öğrencileri Skepsisli (Ezine-Kurşunlu) Erastos ve Koriskos ile
+            Hermias'a bir mektup göndererek birlikte çalışmalarını önermiştir. Hermias, Assos’un yönetimini M.Ö. 347
+            yılında Assos’a davet ettiği Aristoteles ile Erastos, Koriskos ve Kleanthes’e bırakmıştır. Bu filozoflara
+            daha sonra Platon’un bir diğer öğrencisi olan Theophrastos da katılmıştır. “O her şeyi filozofların
+            kullanımına sundu ve birlikte bilimsel konuşmalar yapmalarını sağlamak için onlara Assos kentini verdi ve
+            Hermias onların tüm ihtiyaçlarını sağladı. (Philodems V)” İcraatçı, enerjik ve felsefeye düşkünlüğü ile
+            bilinen Hermias bir tiran olarak tanımlansa da Platon'un devlet teorisini Siraküzalı Dion’dan bile daha iyi
+            gerçekleştirmiş bir yöneticidir. Hermias Pers kralının kendisimi cezalandıracağı endişesi ile Erythrai
+            (Çeşme-Ildırı) kenti ve Makedon kralı II. Philipp ile anlaşmalar yapmıştır. Ancak Pers kralının emri ile
+            Rhodos valisi Mentor, M.Ö. 345 yılında misafir ettiği Hermias'ı tutuklayarak İran’daki kralın sarayına
+            göndermiş; Hermias orada öldürülmüştür. Bu olayın ardından Aristoteles ve diğer filozoflar Assos’tan
+            ayrılmıştır.
+          </p>
+        </div>
+        <div v-if= 'lang === "en"'>
+          <p class="text-justify" id="paragraf">
+            <div class="text-center font-weight-bold">HERMIAS ( ?- 341 B.C.)</div> <br>
+            Hermias was the slave of Eubulos. Eubulos was the tyrant of the region between Assos and Atarneus (Dikili),
+            which was described in ancient sources as full of barbarians, castrators, slaves and tyrants who exchanged
+            money. In 360, Eubulos sent Hermias to Plato's academy in Athens, where Hermias became friends with
+            Aristotle. After the death of Eubulos, who returned to Aterneus in 350 B.C., Hermias took over the
+            administration as Eubulos’s successor. In 347 B.C., Hermias invited Aristotle to Assos and left Assos with
+            the philosophers Erastos, Koriskos and Xenokrates. Later, Theaphrastos joined Plato's students. “He made
+            everything available to philosophers and gave them the city of Assos in order to made scientific talks
+            together, and Hermias provided all their needs. (Philodemus V)”. Not only was Hermias passionate about
+            learning Plato's theoretical teachings, but he also applied them in his daily life. Although he was
+            described as a reduced tyrant, Hermias was the most prominent ruler of Plato's theory of the state, even
+            more so than Dion, the tyrant of Syracuse. Territories under the Persian Empire revolted from the
+            ineffective Persian rule, and many neighboring people commited themselves to the control of Hermias when
+            they observed his more moderate, Platonic ruling tendencies. As his own lands expanded, Hermias anxiously
+            anticipated the the wrath of the Persian king Artaxerxes III. In 34 B.C., on orders from Artaxerxes III, the
+            Rhodian governor Memnon arrested Hermias and sent him to the king for punishment. Following this incident,
+            Aristotle and other philosophers left Assos.
+          </p>
+        </div>
+
+
+        <div v-if="lang  === 'tr'">
+          <div class="paragraf">
+            <p class="text-justify  " id="paragraf">
+              <div class="text-center font-weight-bold"> ARİSTOTELES (M.Ö. 384-322)</div> <br>
+              Makedonya kralı Amyntas’ın yanında hekimlik yapan Nicomachos ve Phaestis’in oğlu olan Aristoteles, M.Ö.384
+              yılında Yunanistan’daki Stageira’da doğmuştur. 17 yaşında Platon’un Atina’daki akademisine giren
+              Aristoteles burada yirmi yıl eğitim görmüştür. Platon’un ardılı olarak Ksenokrates’i seçmesine duyduğu
+              kırgınlık yüzünden akademinden ayrılmıştır. M.Ö. 347 yılında Assos-Aterneus arasındaki bölgeyi yöneten
+              akademiden arkadaşı tiran Hermias’ın daveti üzerine Assos’a gelerek Hermias’ın akrabası Pythias ile
+              evlenmiştir. Aristoteles Assos'ta Ethik ve Politika eserlerinin ilk taslaklarını hazırlamıştır. M.Ö. 345
+              yılında Hermias’ın Pers kralı tarafında tutuklanması üzerine Assos’tan ayrılarak önce Mytilene’ye
+              (Midilli) oradan da doğum yeri Stageira’ya dönmüştür. M.Ö. 342 yılında Makedonya’ya giderek, II. Philip’in
+              sarayında Büyük İskender’in eğitimini üstlenmiştir. Büyük İskender’den aldığı yüklü miktardaki para ile
+              Atina’ya dönen Aristoteles M.Ö. 335/34 yılında Lykeion adını verdiği okulu kurarak 13 yıl boyunca burada
+              dersler vermiştir. Büyük İskender’in ölümünden sonra M.Ö. 323 yılında dinsizlik suçlaması ile mahkemeye
+              verilmiştir. Kendisi için daha iyi olacağı düşüncesiyle yeniden memleketi Stageira’ya dönmüş ve burada 63
+              yaşında hayatını yitirmiştir.
+            </p>
+          </div>
+         
+        </div>
+        <div v-if ='lang ===  "en"'>
+          <p class="text-justify  " id="paragraf">
+            <div class="text-center font-weight-bold">ARISTOTLE (384-322 B.C.)</div> <br>
+            Aristotle, the son of Nicomakhos and Phaistis, a physician with the Macedonian king Amyntas, was born in
+            Stageira, Greece, in 348 B.C. At the age of 17, Aristotle entered Plato's academy in Athens where he
+            studied for twenty years. Aristotle resigned from the academy because of his resentment of Plato’s choice
+            of Xenocrates as his successor. In 347 B.C., Aristotle came to Assos upon the invitation of his friend
+            Tyrians Hermias, from the academy that ruled the region between Assos and Aterneus, where he married
+            Hermias' niece Pythias. Aristotle prepared the first sketches of his Ethics and Politics in Assos. After
+            Hermias was arrested in 345 B.C. by the Persian soldier Memnon, Aristotle left Assos and went first to
+            Mytilene and then to his birthplace, Stageira. In 342 B.C., he went to the palace of the Macedonian King
+            Philip, where Aristotle undertook the education of Alexander the Great. In 335/34 B.C., Aristotle founded
+            the school of Lykeion, where he taught for 13 years. In 323 B.C., he was brought to court on the charge of
+            irreligion. Aristotle died in his hometown of Stageira at the age of 63.
+          </p>
+        </div>
+        <div class="justify-content-center text-center font-weight-bolder"> <img :src="links.foto1.link"
+            class="img-fluid max-width: 90%"><br> <span v-if="lang === 'tr'">{{links.foto1.aciklamatr}}</span> <span
+            v-if="lang === 'en'">{{links.foto1.aciklamaen}}</span> </div>
+        </br>
+
+
+        <div v-if="lang === 'tr'">
+          <div class="paragraf">
+            <p class="text-justify  " id="paragraf">
+              <div class="text-center font-weight-bold">KLEANTHES (M.Ö. 330-230)</div><br>
+              Assoslu boksör Kleanthes Atina’ya giderek stoacılığın kurucusu Zenon’un öğrencisi olmuştur. Yoksul bir
+              aileden gelen Kleanthes, ders ücretini ödemek ve yaşamını sürdürmek için geceleri Atina’daki bahçelere
+              sırtında su taşımıştır. Bu ağır çalışmaya rağmen ondokuz yıl boyunca gündüzleri Zenon’un derslerine
+              katılmıştır. Oldukça kuvvetli ve çalışkan kişiliğinden dolayı arkadaşları tarafından kendisine “Herakles”
+              ve “eşek” lakapları verilmiştir. Zenon’un Stoa Poikile’de ders vermesinden dolayı onun öğretisi stoacılık
+              olarak isimlendirilmiştir. Ahlak ve mantık konularını ele alan stoacılara göre iyi bir insan olmanın yolu
+              erdemli olmaktan geçmektedir. M.Ö. 269 yılında Zenon’un ölümünden sonra okula yönetici seçilen
+              Kleanthes’in eserlerinden sadece Zeus için yazdığı hymnos’u (şiir) günümüze ulaşmıştır.
+            </p>
+          </div>
+          
+        </div>
+        <div v-else>
+          <p class="text-justify  " id="paragraf">
+            <div class="text-center font-weight-bold"> KLEANTHES (330-230 B.C.)</div> <br>
+            Kleanthes, a boxer born in Assos, went to Athens to become a student of Zenon, the founder of stoicism.
+            Kleanthes was a member of a poor family, so he carried water to the gardens of Athens at night to pay his
+            tuition and fund his daily life. Despite this hard work, he attended Zenon's classes during the day for
+            nineteen years. Kleanthes was nicknamed as “Heracles ”and “Donkey” by his friends for being so strong and
+            hardworking. Zenon's teaching was called stoicism because he taught at the Stoa Poikile in Athens. The
+            Stoics closely examined moral and logic issues. According to these philosophers, being a good person was
+            only possible through virtue. After the death of Zenon in 269 B.C., Kleanthes was elected to the school.
+            The hymnos (poem) that he wrote for Zeus is the only work of his that has survived until today.
+          </p>
+        </div>
+        <div class="justify-content-center text-center font-weight-bolder"> <img :src="links.foto2.link"
+            class="img-fluid max-width: 90%"><br> <span v-if="lang === 'tr'">{{links.foto2.aciklamatr}}</span> <span
+            v-if="lang === 'en'">{{links.foto2.aciklamaen}}</span> </div>
+        </br>
+
+        <div v-if="lang === 'tr'">
+          <div class="paragraf">
+            <p class="text-justify  " id="paragraf" v-if="lang === 'tr'">
+              <div class="text-center font-weight-bold"> OLİMPİYATLARDA BİRİNCİ GELEN ASSOSLU SPORCULAR</div> <br>
+              Yunan kültüründe spor yarışları kutsal bir eylem olarak kabul edilmiştir. Her dört yılda bir Olympia’da
+              düzenlenen Olimpiyatlar öncesinde bölgesel spor yarışmaları yapılmaktaydı. Bu tür yarışmalarda birinci
+              gelen iki Assoslu sporcu bilinmektedir. Assoslu Sodamos M.Ö. 204 yılında düzenlenen 144. Olimpiyat
+              oyunlarında, gençler kategorisinde Pankrationda (boks ile güreş) birincilik kazanmıştır. Antik yazar
+              Pausanias, Sodamos’un Aiol bölgesinden gençler kategorisinde birinci gelen tek sporcu olduğunu
+              aktarmıştır. İkinci sporcu Kos (Sakız Adası) adasında tanrı Asklepios adına düzenlenen şenliklerde
+              birincilik kazanmıştır. Ancak yazıtın kırık olmasından dolayı adı bilinmemektedir. M.Ö. 198 yılına ait
+              yazıtta yetişkinler sınıfında Pentathlon dalında (cirit ve disk atma, atlama, koşu ve güreş ) Assoslu
+              Apollonidos oğlu Ani….? birincilik kazanmıştır.
+            </p>
+          </div>
+          
+        </div>
+        <div v-else>
+          <p class="text-justify  " id="paragraf" v-if="lang === 'en'">
+            <div class="text-center font-weight-bold"> ATHLETES FROM ASSOS</div> <br>
+            In Greek culture, sporting events were regarded as sacred acts. Before the establishment of today’s
+            well-known Olympics, which were held every four years in Olympia, several regional competitions were
+            prominent. Two athletes from Assos are known to have placed first in these events. The first of these,
+            Sodamos, won first place at the 144th Olympics held in 204 B.C. in the junior Pankration category. The
+            author Pausanias states that Sodamos was the only athlete from the cities in the Aiol region to take first
+            place in the youth category. An otherwise unknown athlete from Assos won first place at the 198 B.C.
+            festivities organized in the name of the god Asklepios on the island of Kos (Chios). According to the
+            inscription, “Ani the son of Apollonidos of Assos in the Pentathlon branch in the adult class….? has won
+            first place.”
+          </p>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+          integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+          integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <script src="index.js"></script>
+</body>
+
+</html>

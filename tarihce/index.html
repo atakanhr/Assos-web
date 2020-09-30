@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Assos</title>
+</head>
+
+<body>
+  <div id="app">
+    <div class="container">
+      <!-- logolar navbar -->
+      <nav class="navbar mt-1 mb-1 border-top border-bottom">
+        <img src="../logo/indir (1).png" width="30" height="30" alt="nara logo">
+        <img src="../logo/indir.png" width="30" height="30" alt="kultur bakanlıgı logo">
+        <img src="../logo/comu.png" width="30" height="30" alt="comulogo">
+        <img src="../logo/assoskazısı.png" width="30" height="30" alt="assos kazısı logo">
+        <img src="../logo/icdas-celik-logo.jpg" width="60" height="30" alt="icdas logo">
+      </nav>
+      <!-- Başlık ve dil -->
+      <div class="row d-flex justify-content-between mb-1 border-bottom text-center">
+        <div class="col-2 ml float-left" v-on:click='changeLangTr'>
+          <img src="https://cdn.webshopapp.com/shops/94414/files/54949672/turkey-flag-icon-free-download.jpg" width="50"
+            height="40" alt="turkce">
+        </div>
+        <div class="col-5">
+          <h2 v-if = " lang === 'tr'"> Assos Tarihi </h2>
+          <h2 v-if = " lang === 'en'"> History of Assos </h2>
+        </div>
+        <div class="col-2 " v-on:click='changeLangEn'>
+          <img class="float-right"
+            src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Great_Britain_%28English_version%29.png"
+            width="50" height="40" alt="ingilizce">
+        </div>
+      </div>
+      <!-- Font -->
+      <div class="row justify-content-between mb-1 border-bottom text-center">
+        <div class="col-3" v-on:click='smallerFont'>
+          <i class="fa fa-font" aria-hidden="true"></i>-
+        </div>
+        <span v-if="lang === 'tr'">Yazı Büyüklüğü</span>
+        <span v-if="lang === 'en'">Font Size </span>
+
+        <div class="col-3" v-on:click='biggerFont'>
+
+          +<i class="fa fa-font" aria-hidden="true"></i>
+        </div>
+      </div>
+      <!-- İçerik -->
+      <div class="paragraf">
+
+        <p class="text-justify" id="paragraf" v-if="lang === 'tr'">
+          M.Ö. 13. yüzyıl 	Hitit kaynaklarına göre Assuwa (?) ve Pedasos (?) Assos’la ilişkilendirilmiştir.
+          <br>
+          M.Ö. 7. Yüzyıl 	Lesbos’daki (Midilli) Methymnalıların Assos’u kurması
+
+          M.Ö. 560-546 		Lidya Egemenliği (?)
+          <br>
+          M.Ö. 546 		Anadolu’nun Pers Krallığı hâkimiyetine girmesi
+          <br>
+          M.Ö. 540-530 		Athena Tapınağı’nın inşası
+          <br>
+          M.Ö. 478/77-412 	Assos Attik Delos Deniz Birliği Üyesi
+          <br>
+          M.Ö. 365 		Pers satrapı Ariobarzanes’in Assos’u kuşatması
+          <br>
+          M.Ö. 365 		Banker Eubulos’un Assos ve Aterneus yönetimini ele geçirmesi
+          <br>
+          M.Ö. 350 		Eubulos’un kölesi Hermias’ın tiranlık dönemi
+          <br>
+          M.Ö. 347 		Hermias’ın Platon’un öğrencilerinden Aristoteles, Erastos, Koriskos ve
+          Ksenokrates'i Assos’a davet etmesi
+          <br>
+          M.Ö. 345 		Hermias’ın Persler tarafından öldürülmesi üzerine filozofların Assos’tan
+          ayrılması
+          <br>
+          M.Ö. 334 		Büyük İskender’in Anadolu topraklarına ayak basması ve Troas bölgesindeki Pers hakimiyetinin sonu
+          <br>
+          M.Ö. 331 		Stoacı Kleanthes’in Assos’ta dünyaya gelmesi
+          <br>
+          M.Ö. 241 		Pergamon Krallığı hâkimiyeti
+          <br>
+          M.Ö. 204 		Assoslu Sodamos’un 144. Olimpiyatlarda birinciliği kazanması
+          <br>
+          M.Ö. 133 		Pergamon Krallığı’na ait Batı Anadolu topraklarının vasiyet yolu ile Roma Devleti’ne bırakılması
+          <br>
+          M.S. 16 		Germanicus, karısı Agrippina ve oğlu Caligula’nın Assos’u ziyaretleri
+          <br>
+          M.S. 56/57 		Aziz Paulos’un Assos’u ziyareti
+          <br>
+          M.S. 330 		I. Konstantin’in başkent Konstantinopolis’i kurması
+          <br>
+          M.S. 395-1453 	Doğu Roma (Bizans) İmparatorluğu hakimiyeti
+          <br>
+          1080 			Selçuklu Devleti Sultanı Süleyman’ın Troas bölgesini ele geçimesi
+          <br>
+          1081-1097 		Çaka Bey’in Troas Bölgesi kentlerini ele geçirmesi
+          <br>
+          1097 			İmparator Ioannes Dukas’ın Troas Bölgesi’ni yeniden Bizans topraklarına katması
+          <br>
+          1204-1224 		Troas Bölgesi’nin Latinler tarafından ele geçirilmesi
+          <br>
+          1261 			Troas Bölgesi’nin yeniden Bizans İmparatorluğu’na katılması
+          <br>
+          Erken 14. yüzyıl 	Troas Bölgesi’nin güney kesiminin Türkler tarafından ele geçirilmesi; cami ve köprünün inşası
+          <br>
+          1881-1883 		Amerikan Arkeoloji Enstitüsü heyetinin kazı çalışmaları
+          <br>
+          1981-2005 		Assos Kazı Başkanı Prof.Dr. Ümit Serdaroğlu
+          <br>
+          2006- 			Assos Kazı Başkanı Prof.Dr. Nurettin Arslan (Çanakkale Onsekiz Mart
+          Üniversitesi)
+          <br>
+          </p>
+        <p class="text-justify" id="paragraf" v-if="lang === 'en'">
+          B.C. 13th century 	According to The Hitit sources, Assuwa (?) and Pedasos (?) can be related to Assos
+          <br>
+          B.C. 7th Century 	Lesbian Methymnians found the city Assos
+          <br>
+          B.C. 560-546 		Lydian Sovereignty (?)
+          <br>
+          B.C. 546 		Anatolia's entry into the Persian Kingdom
+          <br>
+          B.C. 540-530 		Construction of the Temple of Athena
+          <br>
+          B.C. 478 / 77-412 	Assos joined the Attic Delos Naval Union
+          <br>
+          B.C. 365 		Assos was besieged by the Persian satrap Ariobarzanes
+          <br>
+          B.C. 365 		Banker Eubulos seized Assos and Aterneus
+          <br>
+          B.C. 350 		The tyranny of Hermias, slave of Eubulos
+          <br>
+          B.C. 347 		Hermias invites Plato’s students Aristotle, Erastos, Koriskos and Xenokrates to Assos
+          <br>
+          B.C. 345 		Persians killed Hermias, as a result, the philosophers left Assos.
+          <br>
+          B.C. 334 		Alexander the Great entered Anatolia and liberated the Troad region.
+          <br>
+          B.C. 331 		Birth of the Stoic Philosopher Kleanthes in Assos
+          <br>
+          B.C. 241 		Domination of the Kingdom of Pergamon
+          <br>
+          B.C. 204 		Sodamos of Assos wins the 144th Olympic games
+          <br>
+          B.C. 133 		Pergamon kingdom leaves Western Anatolia to the Roman State
+          <br>
+          A.D. 16 		Germanicus and his wife Agrippina visit Assos
+          <br>
+          A.D. 56/57 		Apostle St. Paul visit Assos
+          <br>
+          A.D. 330 		Constantine I founded the capital of Constantinople
+          <br>
+          A.D. 395-1453 	Domination of the Eastern Roman (Byzantine) Empire
+          <br>
+          1080 			Seljuk Sultan Suleiman's capture of the Troad region
+          <br>
+          1081-1097 		Tshaka Bey's capture of the cities of Troad Region
+          <br>
+          1097 			Emperor Ioannes Dukas reintroduces Troad to Byzantine territory
+          <br>
+          1204-1224 		The capture of the Troad region by the Latins
+          <br>
+          1261 			Troad re-entry into the Byzantine Empire
+          <br>
+          Early 14th century 	Capture of the southern part of the Troad by the Turks, construction of the mosque and the bridge.
+          <br>
+          1881-1883 		Excavations by the American Institute of Archaeology (Joseph T. Clarke, Francis H. Bacon, Robert Koldewey)
+          <br>
+          1981-2005 		Turkish Excavations under the direction of Prof. Dr. Ümit Serdaroğlu
+          <br>
+          2006- 			Continuation of the excavation under the direction of Prof. Dr. Nurettin Arslan (Çanakkale Onsekiz Mart University)</p>
+
+
+
+
+
+        
+        <div class="images">
+          <br>
+          <div class="justify-content-center text-center font-weight-bolder" v-for="foto in links" :key="foto.aciklamatr"> <img :src="foto.link"
+            class="img-fluid max-width: 90%"><br> <span v-if="lang === 'tr'">{{foto.aciklamatr}}</span> <span
+            v-if="lang === 'en'">{{foto.aciklamaen}}</span> </div>
+        </br>
+        </div>
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+      </script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+      <script src="index.js"></script>
+</body>
+
+</html>
