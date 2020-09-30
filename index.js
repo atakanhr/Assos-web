@@ -9,7 +9,7 @@ var app = new Vue({
             {nametr:'Athena Tapınağı',nameen:'Athena Temple',img:'/athena-tap/content/cizim-1-01.svg',source:'/athena-tapinak'},
             {nametr:'Batı Kilisesi',nameen:'West Church',img:'/batı-kilisesi/content/cizim-1-01.svg',source:'/batı-kiliesesi'},
             {nametr:'Boulenterion',nameen:'Boulenterion',img:'/Boulenterion/content/cizim-1.svg',source:'/Boulenterion'},
-            {nametr:'Cami',nameen:'Mosque',img:'/cami/content/foto-1.jpg',source:'../cami'},
+            {nametr:'Erken Osmanlı Cami',nameen:'Early Ottoman Mosque',img:'/cami/content/foto-1.jpg',source:'../cami'},
             {nametr:'Güney Stoastoa',nameen:'South Stoastoa',img:'/guney-stoastoa/content/cizim-1.svg',source:'/guney-stoastoa'},
             {nametr:'Gymnasion',nameen:'Gymnasion',img:'/gymnasion/content/cizim-1.svg',source:'/gymnasion'},
             {nametr:'Kent Planı',nameen:'Urban Plan',img:'/kent-planı/content/cizim-1.svg',source:'/kent-planı'},
@@ -18,7 +18,7 @@ var app = new Vue({
             {nametr:'Nekropolis',nameen:'Necropolis',img:'/nekropolis/content/cizim-1.jpg',source:'/nekropolis'},
             {nametr:'Sur',nameen:'City Walls',img:'/sur/content/foto-1.jpg',source:'/sur'},
             {nametr:'Assos Tarihi',nameen:'History of Assos',img:'/tarihce/content/Aristoteles.jpg',source:'/tarihce'},
-            {nametr:'Ünlüler',nameen:'Famous People',img:'/unluler/content/kleanthes.jpg',source:'/unluler'},
+            {nametr:'Assos\'un Ünlü Kişileri',nameen:'Famous People of Assos',img:'/unluler/content/kleanthes.jpg',source:'/unluler'},
             {nametr:'Xenedochion',nameen:'Xenedochion',img:'/xenedochion/content/foto-1.jpg',source:'xenedochion'},]
 
     },

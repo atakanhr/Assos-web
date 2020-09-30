@@ -13,7 +13,7 @@ var app = new Vue({
             paragraph2: '',
         },
         links: {
-            foto1: {link : 'content/cizim-1-01.svg', aciklamatr : '', aciklamaen: ''},
+            foto1: {link : 'content/cizim-1.svg', aciklamatr : '', aciklamaen: ''},
             foto2: {link : 'content/cizim-2.svg', aciklamatr : 'Gymnasion kilisesinin mozaik döşemesi - Clarke - Bacon - Koldewey 1882', aciklamaen : 'Giriş - Clarke - Bacon - Koldewey 1882 '},
             foto3: {link : 'content/cizim-3.svg', aciklamatr : '', aciklamaen : ''},
             foto4: {link : 'content/foto-1-01.jpg', aciklamatr : 'Giri\u015F - Clarke - Bacon - Koldewey 1882 \r\n', aciklamaen : 'Clarke - Bacon - Koldewey 1882 '}
