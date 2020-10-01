@@ -3,8 +3,8 @@ var app = new Vue({
     data: {
         message: 'Hello Vue!',
         f_names: ["agora", "akropolis", "arastirma-tarihi", "asagi-agora", "athena-tap", "batı-kilisesi", "Boulenterion", "Erken Osmanlı Camisi", "guney-stoastoa", "gymnasion", "kent-planı", "kuzey-stoa", "liman", "nekropolis", "sur", "tarihce", "tiyatro", "unluler", "xenedochion"],
-        basliklar_tr:["Agora", "Akropolis","Araştırma Tarihi", "Güney Teras Alanı","Athena Tapınağı", "Batı Kilisesi","Boulenterion","Cami","Güney Stoastoa ve Hamam","Gymnasion","Kent Planı","Liman","Kuzey Stoa","Nekropolis","Sur","Assos Tarihi","Assos Tiyatrosu","Assosun Ünlüleri","Xenedochion"],
-        basliklar_en:["Agora", "Acropolis","Research History of Assos","South Terrace Area", "Athena Temple","West Church","Boulenterion","Early Ottoman Mosque", "South Stoa and Bath", "Gymnasion","City Plan","Harbour","North Stoa","Necropolis","City Walls","History of Assos","Assos Theater","Famous people of Assos","Xenedochion"],
+        basliklar_tr:["Agora", "Akropolis","Araştırma Tarihi", "Güney Teras Alanı","Athena Tapınağı", "Batı Kilisesi","Bouleuterion","Cami","Güney Stoastoa ve Hamam","Gymnasion","Assos Şehir Planı","Liman","Kuzey Stoa","Nekropolis","Sur","Assos Tarihi","Assos Tiyatrosu","Assosun Ünlüleri","Xenedochion"],
+        basliklar_en:["Agora", "Acropolis","Research History of Assos","South Terrace Area", "Athena Temple","West Church","Bouleuterion","Early Ottoman Mosque", "South Stoa and Bath", "Gymnasion","Assos City Plan","Harbor","North Stoa","Necropolis","City Walls","History of Assos","Assos Theater","Famous people of Assos","Xenedochion"],
         conc : [],
         doc_names:[],
         config: {
@@ -16,7 +16,7 @@ var app = new Vue({
         qr_paths: [],
         qr_links: [],
         qr_boy : 100,
-        api_str:"https://api.qrserver.com/v1/create-qr-code/?data=[URL-encoded-text]&size=[pixels]x[pixels]",
+        api_str:"https://api.qrserver.com/v1/create-qr-code/?data=https://[URL-encoded-text]&size=[pixels]x[pixels]",
         error :  false
 
     },
