@@ -16,7 +16,7 @@ var app = new Vue({
             foto1: {link : 'content/Aristoteles.jpg', aciklamatr : 'Aristoteles', aciklamaen: 'Aristoteles'},
             foto2: {link : 'content/bacon.jpg', aciklamatr : 'Bacon', aciklamaen : 'Bacon'},
             foto3: {link : 'content/kleanthes.jpg', aciklamatr : 'Kleanthes', aciklamaen : 'Kleanthes'},
-            foto4: {link : 'content/Koldewey.png', aciklamatr : 'Koldewey', aciklamaen : 'Koldewey'}
+            foto4: {link : 'content/koldewey.png', aciklamatr : 'Koldewey', aciklamaen : 'Koldewey'}
         }
 
     },

@@ -42,7 +42,7 @@
                 class="btn btn-primary" v-on:click="produce_qr">QR Kodları oluştur</button></div>
     
         <div v-for="item in conc" :key="item.tr" class="d-flex flex-column align-items-center justify-content-center mb-1 mt-1 border-bottom border-top">
-            <img :src="item.img">
+            <img :src="item.img" :alt="item.tr">
             <div>{{item.tr}}<div>
             <div>{{item.en}}<div>
     </div>

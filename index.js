@@ -7,7 +7,7 @@ var app = new Vue({
             {nametr:'Araştırma tarihi',nameen:'Research History',img:'/arastirma-tarihi/content/foto-3.jpg',source:'/arastirma-tarihi'},
             {nametr:'Güney teras alanı',nameen:'South Terrace Area',img:'/asagi-agora/content/foto-1.jpg',source:'/asagi-agora'},
             {nametr:'Athena Tapınağı',nameen:'Athena Temple',img:'/athena-tap/content/cizim-1-01.svg',source:'/athena-tapinak'},
-            {nametr:'Batı Kilisesi',nameen:'West Church',img:'/batı-kilisesi/content/cizim-1-01.svg',source:'/batı-kiliesesi'},
+            {nametr:'Batı Kilisesi',nameen:'West Church',img:'/batı-kilisesi/content/cizim-1-01.svg',source:'/batı-kilisesi'},
             {nametr:'Bouleuterion',nameen:'Bouleuterion',img:'/Boulenterion/content/cizim-1.svg',source:'/Boulenterion'},
             {nametr:'Erken Osmanlı Cami',nameen:'Early Ottoman Mosque',img:'/cami/content/foto-1.jpg',source:'../cami'},
             {nametr:'Güney Stoa ve Hamam',nameen:'South Stoa and Bath',img:'/guney-stoastoa/content/cizim-1.svg',source:'/guney-stoastoa'},
@@ -20,7 +20,7 @@ var app = new Vue({
             {nametr:'Assos Tiyatrosu',nameen:'Theather of Assos',img:'/tiyatro/content/tiyatro.jpg',source:'/tiyatro'},
             {nametr:'Assos Tarihi',nameen:'History of Assos',img:'/tarihce/content/Aristoteles.jpg',source:'/tarihce'},
             {nametr:'Assos\'un Ünlü Kişileri',nameen:'Famous People of Assos',img:'/unluler/content/kleanthes.jpg',source:'/unluler'},
-            {nametr:'Xenedochion',nameen:'Xenedochion',img:'/xenedochion/content/foto-1.jpg',source:'xenedochion'},]
+            {nametr:'Xenodochion',nameen:'Xenodochion',img:'/xenedochion/content/foto-1.jpg',source:'xenedochion'},]
 
     },
     methods: {
