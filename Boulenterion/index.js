@@ -14,7 +14,7 @@ var app = new Vue({
         },
         links: {
             foto1: {link : 'content/cizim-1.svg', aciklamatr : '', aciklamaen: ''},
-            foto2: {link : 'content/cizim-2.svg', aciklamatr : '', aciklamaen: ''},  
+            foto2: {link : 'content/cizim-2.svg', aciklamatr : 'Batı Cephesi', aciklamaen: 'Western Facade'},  
         },
 
     },

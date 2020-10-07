@@ -13,7 +13,7 @@ var app = new Vue({
             paragraph2: '',
         },
         links: {
-            foto1: {link : 'content/tiyatro.jpg', aciklamatr : '', aciklamaen: ''},
+            foto1: {link : 'content/tiyatro.jpg', aciklamatr : 'Sahne', aciklamaen: 'Scene'},
             foto2: {link : 'content/tiyatro-2.jpg', aciklamatr : '', aciklamaen : ''},
         }
 

@@ -13,15 +13,15 @@ var app = new Vue({
             paragraph2: '',
         },
         links: {
-            foto1: {link : 'content/cizim-1.jpg', aciklamatr : '', aciklamaen: ''},
-            foto2: {link : 'content/foto-1.jpg', aciklamatr : '', aciklamaen : ''},
-            foto3: {link : 'content/foto-2.jpg', aciklamatr : '', aciklamaen : ''},
-            foto4: {link : 'content/foto-3.jpg', aciklamatr : '', aciklamaen : ''},
-            foto5: {link : 'content/foto-4.jpg', aciklamatr : '', aciklamaen : ''},
-            foto6: {link : 'content/foto-5.jpg', aciklamatr : '', aciklamaen : ''},
+            foto1: {link : 'content/cizim-1.jpg', aciklamatr : '1', aciklamaen: '1'},
+            foto2: {link : 'content/foto-2.jpg', aciklamatr : '', aciklamaen : ''},
+            foto3: {link : 'content/foto-22.jpg', aciklamatr : '2', aciklamaen : '2'},
+            foto4: {link : 'content/foto-3.jpg', aciklamatr : '3', aciklamaen : '3'},
+            foto5: {link : 'content/foto-4.jpg', aciklamatr : '4', aciklamaen : '4'},
+            foto6: {link : 'content/foto-55.jpg', aciklamatr : '5', aciklamaen : '5'},
             foto7: {link : 'content/foto-6.jpg', aciklamatr : '', aciklamaen : ''},
-            foto8: {link : 'content/foto-7.jpg', aciklamatr : '', aciklamaen : ''},
-            foto9: {link : 'content/foto-8.jpg', aciklamatr : '', aciklamaen : ''},
+            foto8: {link : 'content/foto-66.jpg', aciklamatr : '6', aciklamaen : '6'},
+            foto9: {link : 'content/foto-77.jpg', aciklamatr : '7', aciklamaen : '7'},
         }
 
     },
