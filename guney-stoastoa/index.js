@@ -15,8 +15,8 @@ var app = new Vue({
         links: {
             foto1: {link : 'content/cizim-1.svg', aciklamatr : '', aciklamaen: ''},
             foto2: {link : 'content/foto-1.jpg', aciklamatr : 'Clarke - Bacon - Koldewey (1882)', aciklamaen : 'Clarke - Bacon - Koldewey (1882)'},
-            foto3: {link : 'content/foto-2.jpg', aciklamatr : 'Hamam - Clarke - Bacon - Koldewey (1882)', aciklamaen : 'Hamam - Clarke - Bacon - Koldewey (1882)'},
-            foto4: {link : 'content/foto-3.jpg', aciklamatr : 'Güney Stoa - Güney Cephe - Clarke - Bacon - Koldewey (1882)', aciklamaen : 'Güney Stoa - Güney Cephe - Clarke - Bacon - Koldewey (1882)'}
+            foto3: {link : 'content/foto-2.jpg', aciklamatr : 'Hamam - Clarke - Bacon - Koldewey (1882)', aciklamaen : 'Bath - Clarke - Bacon - Koldewey (1882)'},
+            foto4: {link : 'content/foto-3.jpg', aciklamatr : 'Güney Stoa - Güney Cephe - Clarke - Bacon - Koldewey (1882)', aciklamaen : 'South Stoa - South Front - Clarke - Bacon - Koldewey (1882)'}
         }
 
     },
