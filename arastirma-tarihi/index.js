@@ -14,7 +14,7 @@ var app = new Vue({
         },
         links: {
             foto1: {link : 'content/foto-1.jpg', aciklamatr : 'Joseph T. Clarke (1882)', aciklamaen: 'Joseph T. Clarke (1882)'},
-            foto2: {link : 'content/foto-2.jpg', aciklamatr : 'Francs H. Bacon and Robert Koldewey at the port (1882)', aciklamaen : 'Francs H. Bacon and Robert Koldewey at the port (1882)'},
+            foto2: {link : 'content/foto-2.jpg', aciklamatr : 'Francis H. Bacon and Robert Koldewey at the port (1882)', aciklamaen : 'Francis H. Bacon and Robert Koldewey at the port (1882)'},
             foto3: {link:'content/foto-3.jpg', aciklamatr : 'Agora',aciklamaen : 'Agora'},
             foto4: {link:'content/foto-4.jpg', aciklamatr : 'Edmond Duthoit (1865)' , aciklamaen : 'Edmond Duthoit (1865)'},
             foto5: {link:'content/foto-5.jpg', aciklamatr : 'Charles Texier (1838)' , aciklamaen : 'Charles Texier (1838)'},

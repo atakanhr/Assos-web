@@ -13,7 +13,7 @@ var app = new Vue({
             paragraph2: '',
         },
         links: {
-            foto1: {link : 'content/foto-1.jpg', aciklamatr : 'Güney Teras Alanı hava fotografı', aciklamaen: 'South Terrace Area Aeral Vew'},
+            foto1: {link : 'content/foto-1.jpg', aciklamatr : 'Güney Teras Alanı hava fotoğrafı', aciklamaen: 'South Terrace Area Aerial View'},
             foto2: {link : 'content/cizim-1.svg', aciklamatr : '', aciklamaen: ''},
             foto3: {link : 'content/cizim-2.svg', aciklamatr : '', aciklamaen: ''},
         },

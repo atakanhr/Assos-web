@@ -14,7 +14,7 @@ var app = new Vue({
         },
         links: {
             foto6: {link : 'content/cizim-1.svg', aciklamatr : '', aciklamaen: ''},
-            foto1: {link : 'content/foto-1.jpg', aciklamatr : 'Caminin kuzeyden görünüşü  - Clarke - Bacon - Koldewey (1882)', aciklamaen : 'Foto-1: Mosque from north - Clarke - Bacon - Koldewey (1882)'},
+            foto1: {link : 'content/foto-1.jpg', aciklamatr : 'Caminin kuzeyden görünüşü  - Clarke - Bacon - Koldewey (1882)', aciklamaen : 'Mosque from north - Clarke - Bacon - Koldewey (1882)'},
             foto2: {link : 'content/foto-2.jpg', aciklamatr : 'Graffiti', aciklamaen : 'Graffiti'},
             foto3: {link : 'content/foto-3.jpg', aciklamatr : 'Graffiti', aciklamaen : 'Graffiti'},
             foto4: {link : 'content/cizim-2.svg', aciklamatr : '', aciklamaen: ''},
