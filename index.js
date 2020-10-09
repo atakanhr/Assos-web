@@ -24,12 +24,21 @@ var app = new Vue({
 
     },
     methods: {
+
         changeLangEn : function(){
+            localStorage.lang = 'en'
             this.lang = 'en'
-            console.log(lang)
         },
         changeLangTr : function(){
+            localStorage.lang = 'tr'
             this.lang = 'tr'
         },
+    },
+    mounted(){
+        if (localStorage.lang) {
+            this.lang = localStorage.lang;
+          }else{
+              this.lang = 'tr'
+          }
     }
   })
