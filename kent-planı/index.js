@@ -27,6 +27,7 @@ var app = new Vue({
             foto12: {link : 'content/liman.jpg', aciklamatr : 'Liman', aciklamaen : 'Harbor'},
             foto13: {link : 'content/nekropolis.jpg', aciklamatr : 'Nekropolis', aciklamaen : 'Necropolis'},
             foto14: {link : 'content/tiyatro.jpg', aciklamatr : 'Tiyatro', aciklamaen : 'Theater'},
+            foto15: {link : 'content/tarih.jpg', aciklamatr : '', aciklamaen : ''},
         }
 
     },

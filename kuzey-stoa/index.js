@@ -14,7 +14,10 @@ var app = new Vue({
         },
         links: {
             foto1: {link : 'content/cizim-2.svg', aciklamatr : '', aciklamaen: ''},
-            foto2: {link : 'content/cizim-1.jpg', aciklamatr : 'Clarke - Bacon - Koldewey (1882)', aciklamaen : 'Clarke - Bacon - Koldewey (1882)'}
+            foto2: {link : 'content/cizim-1.jpg', aciklamatr : 'Clarke - Bacon - Koldewey (1882)', aciklamaen : 'Clarke - Bacon - Koldewey (1882)'},
+            foto3: {link : 'content/cephe.jpg', aciklamatr : 'Kuzey stoa cephe görünümü', aciklamaen: 'North stoa facade view'},
+            foto4: {link : 'content/dogukenari.JPG', aciklamatr : 'Kuzey Stoa doğu kenarı', aciklamaen: 'North Stoa east edge'},
+            foto5: {link : 'content/plan.jpg', aciklamatr : 'Kuzey Stoa planı', aciklamaen: 'North Stoa plan'},
         }
 
     },

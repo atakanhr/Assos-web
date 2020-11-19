@@ -16,7 +16,9 @@ var app = new Vue({
             foto1: {link : 'content/cizim-1.svg', aciklamatr : '', aciklamaen: ''},
             foto2: {link : 'content/cizim-2.svg', aciklamatr : 'Gymnasion kilisesinin mozaik döşemesi - Clarke - Bacon - Koldewey 1882', aciklamaen : 'Mosaic flooring of the Gymnasion church - Clarke - Bacon - Koldewey 1882 '},
             foto3: {link : 'content/cizim-3.svg', aciklamatr : 'Sarnıç', aciklamaen : 'Cistern'},
-            foto4: {link : 'content/foto-1-01.jpg', aciklamatr : 'Giri\u015F - Clarke - Bacon - Koldewey 1882 \r\n', aciklamaen : 'Entrance - Clarke - Bacon - Koldewey 1882 '}
+            foto4: {link : 'content/foto-1-01.jpg', aciklamatr : 'Giri\u015F - Clarke - Bacon - Koldewey 1882 \r\n', aciklamaen : 'Entrance - Clarke - Bacon - Koldewey 1882 '},
+            foto5: {link : 'content/gymnasion plan.JPG', aciklamatr : 'Gymnasion Planı', aciklamaen : 'Gymnasion Plan'},
+            foto6: {link : 'content/gymnasiontop.JPG', aciklamatr : 'Yukarıdan Gymnasion', aciklamaen : 'Gymnasion from top'},
         }
 
     },

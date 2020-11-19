@@ -16,7 +16,8 @@ var app = new Vue({
             foto1: {link : 'content/cizim-1-01.svg', aciklamatr : 'Bonna Daix Wescoat (2012) ', aciklamaen: 'Bonna Daix Wescoat (2012) '},
             foto2: {link : 'content/foto-1-01.jpg', aciklamatr : 'Charles Texier (1838)', aciklamaen : 'Charles Texier (1838)'},
             foto3: {link : 'content/foto-2-01.jpg', aciklamatr : 'Charles Texier (1838)', aciklamaen : 'Charles Texier (1838)'},
-            foto4: {link : 'content/foto-3-01.jpg', aciklamatr : 'Charles Texier (1838)', aciklamaen : 'Charles Texier (1838)'}
+            foto4: {link : 'content/foto-3-01.jpg', aciklamatr : 'Charles Texier (1838)', aciklamaen : 'Charles Texier (1838)'},
+            foto5: {link: 'content/athenaplan.jpg',aciklamatr : 'Tapınak Planı', aciklamaen :'Temple Plan'}
         }
 
     },

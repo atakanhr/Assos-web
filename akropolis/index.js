@@ -16,6 +16,7 @@ var app = new Vue({
             foto1: {link : 'akropolis-content/foto-1.jpg', aciklamatr : 'Akropolis kuzeyden', aciklamaen: 'Acropolis from north'},
             foto2: {link : 'akropolis-content/foto-2.jpg', aciklamatr : 'Akropolis batıdan (Clarke - Bacon - Koldewey 1882)', aciklamaen : 'Acropolis from west (Clarke - Bacon - Koldewey 1882)'},
             foto3: {link : 'akropolis-content/cizim-1.svg', aciklamatr : 'Akropolis Kroki', aciklamaen : 'Sketch of the acropolis'},
+            foto4: {link : 'akropolis-content/akropolisplan.jpg',aciklamatr : 'Akropolis Planı' , aciklamaen:'Acropolis Plan'}
         },
 
     },

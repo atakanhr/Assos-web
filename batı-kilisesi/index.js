@@ -16,6 +16,8 @@ var app = new Vue({
             foto1: {link : 'content/cizim-1-01.svg', aciklamatr : 'Clarke - Bacon - Koldewey (1882)', aciklamaen: 'Clarke - Bacon - Koldewey (1882)'},
             foto2: {link : 'content/foto-1-01.jpg', aciklamatr : '', aciklamaen : ''},
             foto3: {link : 'content/foto-2-01.jpg', aciklamatr : '', aciklamaen : ''},
+            foto4: {link : 'content/mozaik.jpg', aciklamatr : 'Batı Kilisesi Mozaikleri', aciklamaen : 'West Church Mosaics'},
+            foto5: {link : 'content/opussectile.jpg', aciklamatr : 'Batı Kilisesi Opus Sectile', aciklamaen : 'West Church Opus Sectile'},
         }
 
     },
