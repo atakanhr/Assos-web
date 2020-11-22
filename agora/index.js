@@ -16,7 +16,7 @@ var app = new Vue({
             foto1: {link : 'agora-content/cizim-1.svg', aciklamatr : 'plan', aciklamaen: 'plan'},
             foto2: {link : 'agora-content/cizim-2.svg', aciklamatr : 'Clarke - Bacon - Koldewey (1882)', aciklamaen : 'Clarke - Bacon - Koldewey (1882)'},
             foto3: {link:'agora-content/olcu-masasi.svg', aciklamatr : 'Ölçü Masası',aciklamaen : 'Sekoma'},
-            foto4: {link:'agora-content/yazit.svg', aciklamatr : 'Yazıt' , aciklamaen : 'Inscription'}
+            foto4: {link:'agora-content/yazit.svg', aciklamatr : 'II. Constantius (MS 317-361)' , aciklamaen : 'II. Constantius (AD 317-361)'}
         },
 
     },

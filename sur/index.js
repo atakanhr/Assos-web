@@ -13,11 +13,14 @@ var app = new Vue({
             paragraph2: '',
         },
         links: {
+            foto7: {link : 'content/surlar.jpg', aciklamatr : 'Surlar', aciklamaen : 'Gates'},
+
+
+            foto4: {link : 'content/foto-4.png', aciklamatr : 'Doğu Kapısı', aciklamaen : 'Doğu Kapısı'},
+            foto3: {link : 'content/foto-3.jpg', aciklamatr : 'Batı Kapısı', aciklamaen : 'Batı Kapısı'},
+            foto6: {link : 'content/surlarbatikapisi.jpg', aciklamatr : 'Batı Kapısı', aciklamaen : 'Western gate'},
             foto1: {link : 'content/foto-1.jpg', aciklamatr : 'Batı Kapısı hava fotoğrafı', aciklamaen: 'Western Gate aerial view'},
-            foto2: {link : 'content/foto-2.jpg', aciklamatr : 'Batı Kapısı', aciklamaen : 'Western gate'},
-            foto3: {link : 'content/foto-3.jpg', aciklamatr : 'Charles Texier (1838)', aciklamaen : 'Charles Texier (1838)'},
-            foto4: {link : 'content/foto-4.png', aciklamatr : 'Charles Texier (1838)', aciklamaen : 'Charles Texier (1838)'},
-            foto3: {link : 'content/foto-5-01.jpg', aciklamatr : 'Charles Texier (1838)', aciklamaen : 'Charles Texier (1838)'},
+
         }
 
     },

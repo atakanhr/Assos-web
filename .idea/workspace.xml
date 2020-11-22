@@ -20,30 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e8ec415-7f6e-4d45-b093-8f977e96f84a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/agora/agora-content/agorakaide.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agora/agora-content/agoraplan.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/akropolis/akropolis-content/akropolisplan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/athena-tap/content/athaneplan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/batı-kilisesi/content/mozaik.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/batı-kilisesi/content/opussectile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gymnasion/content/gymnasion plan.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gymnasion/content/gymnasiontop.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kent-planı/content/tarih.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kuzey-stoa/content/cephe.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kuzey-stoa/content/dogukenari.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kuzey-stoa/content/plan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xenedochion/content/ksen.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/akropolis/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/akropolis/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/akropolis/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/akropolis/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/athena-tap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/athena-tap/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/athena-tap/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/athena-tap/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sur/content/surlar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sur/content/surlarbatikapisi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xenedochion/content/Xenedochion.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agora/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/agora/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agora/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/agora/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arastirma-tarihi/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/arastirma-tarihi/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/batı-kilisesi/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/batı-kilisesi/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/batı-kilisesi/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/batı-kilisesi/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guney-stoastoa/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/guney-stoastoa/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gymnasion/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gymnasion/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gymnasion/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/gymnasion/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kent-planı/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/kent-planı/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kuzey-stoa/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/kuzey-stoa/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sur/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/sur/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unluler/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/unluler/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xenedochion/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/xenedochion/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xenedochion/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/xenedochion/index.js" afterDir="false" />
     </list>
@@ -66,26 +54,27 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/batı-kilisesi/content" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sur/content" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sur/content" />
+      <recent name="$PROJECT_DIR$/xenedochion/content" />
+      <recent name="$PROJECT_DIR$/batı-kilisesi/content" />
+      <recent name="$PROJECT_DIR$/kuzey-stoa/content" />
+      <recent name="$PROJECT_DIR$/kent-planı/content" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/gymnasion/content" />
       <recent name="$PROJECT_DIR$/athena-tap/content" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/batı-kilisesi/content" />
-      <recent name="$PROJECT_DIR$/kuzey-stoa/content" />
-      <recent name="$PROJECT_DIR$/xenedochion/content" />
-      <recent name="$PROJECT_DIR$/kent-planı/content" />
-      <recent name="$PROJECT_DIR$/gymnasion" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -96,7 +85,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605797013478</updated>
-      <workItem from="1605797014627" duration="3210000" />
+      <workItem from="1605797014627" duration="3681000" />
+      <workItem from="1605828095512" duration="55000" />
+      <workItem from="1606004868373" duration="27000" />
+      <workItem from="1606004913215" duration="2732000" />
     </task>
     <servers />
   </component>
@@ -113,5 +105,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="449" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1606004896805">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="449" y="188" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1606004896805" />
   </component>
 </project>

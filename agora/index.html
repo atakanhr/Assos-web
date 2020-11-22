@@ -68,20 +68,20 @@
           <p class="text-justify font-italic " id="paragraf" v-if="lang === 'en'"> {{contenten.paragraph2}} </p>
         </div>
         <div class="justify-content-center text-center font-weight-bolder"> <img :src="links.foto4.link"
-          class="img-fluid max-width: 90%"> <span v-if="lang === 'tr'">{{links.foto4.aciklamatr}}</span> <span
+          class="img-fluid max-width: 90%" style="max-height: 600px"> <br> <span v-if="lang === 'tr'">{{links.foto4.aciklamatr}}</span> <span
           v-if="lang === 'en'">{{links.foto4.aciklamaen}}</span> </div>
 
     </div>
         <div class="justify-content-center text-center font-weight-bolder"> <img :src="links.foto3.link"
-            class="img-fluid max-width: 90%"> <span v-if="lang === 'tr'">{{links.foto3.aciklamatr}}</span> <span
+            class="img-fluid max-width: 90%"> <br><span v-if="lang === 'tr'">{{links.foto3.aciklamatr}}</span> <span
             v-if="lang === 'en'">{{links.foto3.aciklamaen}}</span> </div>
         <br>
         <div class="justify-content-center text-center font-weight-bolder"> <img :src="links.foto2.link"
-            class="img-fluid max-width: 90%"> <span v-if="lang === 'tr'">{{links.foto2.aciklamatr}}</span> <span
+            class="img-fluid max-width: 90%"> <br><span v-if="lang === 'tr'">{{links.foto2.aciklamatr}}</span> <span
             v-if="lang === 'en'">{{links.foto2.aciklamaen}}</span> </div>
         </br>
         <div class="justify-content-center text-center font-weight-bolder"> <img :src="links.foto1.link"
-            class="img-fluid max-width: 90%"> <span v-if="lang === 'tr'">{{links.foto1.aciklamatr}}</span> <span
+            class="img-fluid max-width: 90%"><br> <span v-if="lang === 'tr'">{{links.foto1.aciklamatr}}</span> <span
             v-if="lang === 'en'">{{links.foto1.aciklamaen}}</span> </div>
         </br>
         

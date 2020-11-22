@@ -99,7 +99,10 @@
           </p>
         </div>
 
-
+        <div class="justify-content-center text-center font-weight-bolder"> <img :src="links.foto1.link"
+                                                                                 class="img-fluid max-width: 90%"><br> <span v-if="lang === 'tr'">{{links.foto1.aciklamatr}}</span> <span
+                v-if="lang === 'en'">{{links.foto1.aciklamaen}}</span> </div>
+        </br>
         <div v-if="lang  === 'tr'">
           <div class="paragraf">
             <p class="text-justify  " id="paragraf">
@@ -121,6 +124,7 @@
           </div>
          
         </div>
+
         <div v-if ='lang ===  "en"'>
           <p class="text-justify  " id="paragraf">
             <div class="text-center font-weight-bold">ARISTOTLE (384-322 B.C.)</div> <br>
@@ -137,12 +141,12 @@
             irreligion. Aristotle died in his hometown of Stageira at the age of 63.
           </p>
         </div>
-        <div class="justify-content-center text-center font-weight-bolder"> <img :src="links.foto1.link"
-            class="img-fluid max-width: 90%"><br> <span v-if="lang === 'tr'">{{links.foto1.aciklamatr}}</span> <span
-            v-if="lang === 'en'">{{links.foto1.aciklamaen}}</span> </div>
+
+
+        <div class="justify-content-center text-center font-weight-bolder"> <img :src="links.foto2.link"
+                                                                                 class="img-fluid max-width: 90%"><br> <span v-if="lang === 'tr'">{{links.foto2.aciklamatr}}</span> <span
+                v-if="lang === 'en'">{{links.foto2.aciklamaen}}</span> </div>
         </br>
-
-
         <div v-if="lang === 'tr'">
           <div class="paragraf">
             <p class="text-justify  " id="paragraf">
@@ -172,10 +176,7 @@
             The hymnos (poem) that he wrote for Zeus is the only work of his that has survived until today.
           </p>
         </div>
-        <div class="justify-content-center text-center font-weight-bolder"> <img :src="links.foto2.link"
-            class="img-fluid max-width: 90%"><br> <span v-if="lang === 'tr'">{{links.foto2.aciklamatr}}</span> <span
-            v-if="lang === 'en'">{{links.foto2.aciklamaen}}</span> </div>
-        </br>
+
 
         <div v-if="lang === 'tr'">
           <div class="paragraf">

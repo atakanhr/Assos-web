@@ -13,11 +13,8 @@ var app = new Vue({
             paragraph2: '',
         },
         links: {
-            foto1: {link : 'content/foto-4.jpg', aciklamatr : 'Mermer masa', aciklamaen: 'Marble table'},
-            foto2: {link : 'content/foto-1.jpg', aciklamatr : 'Şapelde bulunan haç', aciklamaen : 'Cross found in Chapel'},
-            foto3: {link : 'content/foto-2.jpg', aciklamatr : 'Roma dönemi aslanlı gemme', aciklamaen : 'Roman Gemme with lion'},
-            foto4: {link : 'content/foto-3.jpg', aciklamatr : 'Kandil', aciklamaen : 'Lamp'},
-            foto5: {link : 'content/ksen.JPG',aciklamatr: 'yukarıdan Ksenodokhion',aciklamaen:'Xenodochion from top'}
+            foto1: {link : 'content/Xenedochion.jpg', aciklamatr : 'Ksenodokhion', aciklamaen: 'Xenodochion'},
+            foto5: {link : 'content/ksen.JPG',aciklamatr: 'Yukarıdan Ksenodokhion',aciklamaen:'Xenodochion From Top'}
         }
 
     },
