@@ -20,20 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e8ec415-7f6e-4d45-b093-8f977e96f84a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sur/content/surlar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sur/content/surlarbatikapisi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xenedochion/content/Xenedochion.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agora/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/agora/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agora/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/agora/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arastirma-tarihi/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/arastirma-tarihi/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/batı-kilisesi/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/batı-kilisesi/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/batı-kilisesi/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/batı-kilisesi/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gymnasion/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/gymnasion/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sur/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/sur/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unluler/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/unluler/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xenedochion/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/xenedochion/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xenedochion/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/xenedochion/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boulenterion/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Boulenterion/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boulenterion/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Boulenterion/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +77,8 @@
       <workItem from="1605797014627" duration="3681000" />
       <workItem from="1605828095512" duration="55000" />
       <workItem from="1606004868373" duration="27000" />
-      <workItem from="1606004913215" duration="2732000" />
+      <workItem from="1606004913215" duration="3511000" />
+      <workItem from="1606137016054" duration="252000" />
     </task>
     <servers />
   </component>
